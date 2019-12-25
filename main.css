@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("https://technext.github.io/Solid-State/assets/images/01_header_image.jpg");
+    background-size: cover;
+    
+}
+* {
+    font-family: 'Istok Web', sans-serif;
+    box-sizing: border-box;
+}
+.mmenu {
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 110px;
+    height: 35px;
+    color: white;
+    font-size: 17px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.mmenu:hover {
+    cursor: pointer;
+    color: gray;
+    border-color: gray;
+    transition: 2s;
+}
