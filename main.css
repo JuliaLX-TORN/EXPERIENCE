@@ -8,7 +8,7 @@ body{
     position: absolute;
     width:100%;
     height:100%;
-    background:#000;
+    background: black;
     opacity:0.6;
 }
 .r {
@@ -42,8 +42,24 @@ body{
     transition: 1s;
 }
 .text {
-    padding: 10em 0 4.75em 0;
+    padding: 10em 0 0em 0;
     height: 80vh;
     color: #ffffff;
+}
+.all_button {
+    width: 137px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    z-index: 1;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+.all_button:hover {
+    background-color: #52313f;
+    border-color: #52313f;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
