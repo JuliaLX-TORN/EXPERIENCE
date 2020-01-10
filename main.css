@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: url("https://technext.github.io/Solid-State/assets/images/01_header_image.jpg");
-    background-size: cover;
+    background-size: % 100%;
 }
 .blak {
     position: absolute;
@@ -62,4 +62,18 @@ body{
     cursor: pointer;
     transition: 0.5s;
 }
-
+#terry {
+    width: 100%;
+}
+.rm {
+    width: 1260px;
+    margin-right: 20px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+}
+.text_two {
+    width: 100%;
+    text-align: center;
+}
