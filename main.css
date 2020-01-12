@@ -64,9 +64,10 @@ body{
 }
 #terry {
     width: 100%;
+    
 }
 .rm {
-    width: 1260px;
+    top: 50px;
     margin-right: 20px;
     height: auto;
     margin: 0 auto;
@@ -75,5 +76,35 @@ body{
 }
 .text_two {
     width: 100%;
-    text-align: center;
+    text-align: justify;
+}
+.h2 {
+    
+    margin-top: 70px;
+}
+.naushnec {
+    width: 634px;
+    top: 500px;
+}
+.opes {
+    display: flex;
+    justify-content: space-between;
+}
+.naushnec {
+    margin: 50px auto;
+}
+.Lorem {
+    float: right;
+}
+.Lorem:hover {
+    cursor: pointer;
+    color: transparent;
+}
+.ra {
+    top: 50px;
+    margin-right: 20px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background-color: blue;   
 }
