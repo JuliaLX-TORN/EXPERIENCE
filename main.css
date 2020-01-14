@@ -37,7 +37,8 @@ body{
     transition: 1s;
 }
 .text {
-    padding: 10em 0 0em 0;
+    padding-left: 200px;
+    padding-top: 100px;
     height: 80vh;
     color: #ffffff;
     position: absolute;
@@ -58,4 +59,22 @@ body{
     border-color: #52313f;
     cursor: pointer;
     transition: 0.5s;
+}
+.fon_twins {
+    color: white;
+    z-index: 2;
+}
+.text_two {
+    width: 100%;
+    text-align: justify;
+}
+.naushnec_text {
+    font-size: 17px;
+}
+.h2 {
+    margin-top: 70px;
+}
+.naushnec {
+    width: 634px;
+    top: 500px;
 }
