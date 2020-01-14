@@ -3,15 +3,28 @@ body{
     padding: 0;
     background: url("https://technext.github.io/Solid-State/assets/images/01_header_image.jpg");
     background-size: cover;
-    
+}
+.blak {
+    position: absolute;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.6;
+}
+.r {
+    width: 1260px;
+    margin-right: 20px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
 }
 * {
     font-family: 'Istok Web', sans-serif;
     box-sizing: border-box;
 }
 .mmenu {
-    float: right;
-    margin-top: 8px;
+    left: 92%;
+    margin-top: 3px;
     margin-right: 8px;
     width: 110px;
     height: 35px;
@@ -19,10 +32,17 @@ body{
     font-size: 17px;
     background-color: transparent;
     border: 2px solid white;
+    z-index: 1;
+    position: fixed;
 }
 .mmenu:hover {
     cursor: pointer;
     color: gray;
     border-color: gray;
-    transition: 2s;
+    transition: 1s;
+}
+.text {
+    padding: 10em 0 4.75em 0;
+    height: 80vh;
+    color: #ffffff;
 }
