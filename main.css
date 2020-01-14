@@ -1,30 +1,25 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: 0; 
+}
+.fon {
+    width: 100%;
+    height: 100%;
     background: url("https://technext.github.io/Solid-State/assets/images/01_header_image.jpg");
-    background-size: % 100%;
+    background-size: 100%;
+    position: fixed;
 }
 .blak {
     position: absolute;
     width:100%;
-    height:100%;
+    height:86%;
     background: black;
     opacity:0.6;
+    z-index: 1;
 }
-.r {
-    width: 1260px;
-    margin-right: 20px;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
-}
-* {
-    font-family: 'Istok Web', sans-serif;
-    box-sizing: border-box;
-}
-.mmenu {
-    left: 92%;
-    margin-top: 3px;
+.menu {
+    left: 93%;
+    margin-top: 8px;
     margin-right: 8px;
     width: 110px;
     height: 35px;
@@ -35,7 +30,7 @@ body{
     z-index: 1;
     position: fixed;
 }
-.mmenu:hover {
+.menu:hover {
     cursor: pointer;
     color: gray;
     border-color: gray;
@@ -45,6 +40,8 @@ body{
     padding: 10em 0 0em 0;
     height: 80vh;
     color: #ffffff;
+    position: absolute;
+    z-index: 100;
 }
 .all_button {
     width: 137px;
@@ -61,50 +58,4 @@ body{
     border-color: #52313f;
     cursor: pointer;
     transition: 0.5s;
-}
-#terry {
-    width: 100%;
-    
-}
-.rm {
-    top: 50px;
-    margin-right: 20px;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
-    background-color: white;
-}
-.text_two {
-    width: 100%;
-    text-align: justify;
-}
-.h2 {
-    
-    margin-top: 70px;
-}
-.naushnec {
-    width: 634px;
-    top: 500px;
-}
-.opes {
-    display: flex;
-    justify-content: space-between;
-}
-.naushnec {
-    margin: 50px auto;
-}
-.Lorem {
-    float: right;
-}
-.Lorem:hover {
-    cursor: pointer;
-    color: transparent;
-}
-.ra {
-    top: 50px;
-    margin-right: 20px;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
-    background-color: blue;   
 }
