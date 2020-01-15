@@ -2,32 +2,41 @@ body{
     margin: 0;
     padding: 0; 
 }
+.section {
+    width: 100%;
+    height: 100vh;
+}
+#one {
+    position: relative;
+}
 .fon {
     width: 100%;
-    height: 100%;
-    background: url("https://technext.github.io/Solid-State/assets/images/01_header_image.jpg");
+    height: 100vh;
+    background: url("https://technext.github.io/Solid-State/assets/images/01_header_image.jpg") no-repeat;
     background-size: 100%;
     position: fixed;
+    z-index: 1;  
 }
+
 .blak {
     position: absolute;
     width:100%;
     height:86%;
     background: black;
     opacity:0.6;
-    z-index: 1;
+    z-index: 2;
 }
 .menu {
     left: 93%;
-    margin-top: 8px;
     margin-right: 8px;
+    margin-top: 5px;
     width: 110px;
     height: 35px;
     color: white;
     font-size: 17px;
     background-color: transparent;
     border: 2px solid white;
-    z-index: 1;
+    z-index: 2;
     position: fixed;
 }
 .menu:hover {
@@ -37,12 +46,11 @@ body{
     transition: 1s;
 }
 .text {
-    padding-left: 200px;
-    padding-top: 100px;
-    height: 80vh;
     color: #ffffff;
     position: absolute;
-    z-index: 100;
+    z-index: 3;
+    padding-top: 100px;
+    padding-left: 200px;
 }
 .all_button {
     width: 137px;
@@ -50,7 +58,7 @@ body{
     color: white;
     background-color: transparent;
     border: 1px solid white;
-    z-index: 1;
+    z-index: 3;
     border-radius: 20px;
     margin: 30px auto;
 }
@@ -60,21 +68,11 @@ body{
     cursor: pointer;
     transition: 0.5s;
 }
-.fon_twins {
-    color: white;
-    z-index: 2;
+#two {
+    position: relative;
+    height: 100vh;
+    width: 100px;
+    background-color: white;
+    z-index: 4;
 }
-.text_two {
-    width: 100%;
-    text-align: justify;
-}
-.naushnec_text {
-    font-size: 17px;
-}
-.h2 {
-    margin-top: 70px;
-}
-.naushnec {
-    width: 634px;
-    top: 500px;
-}
+
