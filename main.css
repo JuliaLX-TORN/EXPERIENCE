@@ -21,7 +21,7 @@ body{
 .blak {
     position: absolute;
     width:100%;
-    height:86%;
+    height:90%;
     background: black;
     opacity:0.6;
     z-index: 2;
@@ -70,9 +70,31 @@ body{
 }
 #two {
     position: relative;
-    height: 100vh;
-    width: 100px;
+   
     background-color: white;
     z-index: 4;
 }
-
+.text_two {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.Lorem {
+    font-size: 21px;
+}
+.irc_mi {
+    display: block;
+    float: right;
+}
+.Lmore {
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: transparent;
+    border-color: transparent;
+    height: 25px;
+    cursor: pointer;
+    
+}
+.container {
+    padding: 80px 200px 0;
+}
