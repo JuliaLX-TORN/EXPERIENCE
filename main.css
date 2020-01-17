@@ -3,11 +3,12 @@ body{
     padding: 0; 
 }
 .section {
-    width: 100%;
-    height: 100vh;
+    
 }
 #one {
     position: relative;
+    width: 100%;
+    height: 100vh;
 }
 .fon {
     width: 100%;
@@ -70,21 +71,26 @@ body{
 }
 #two {
     position: relative;
-   
+    width: 100%;
+    height: 500px;
     background-color: white;
     z-index: 4;
 }
-.text_two {
-    display: flex;
+/* .text_two {
+    width: 1000px;
     flex-wrap: wrap;
     align-content: center;
-}
+} */
 .Lorem {
     font-size: 21px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    text-align: right;
 }
 .irc_mi {
     display: block;
     float: right;
+    padding-left: 50px;
 }
 .Lmore {
     font-size: 14px;
@@ -93,8 +99,57 @@ body{
     border-color: transparent;
     height: 25px;
     cursor: pointer;
+    float: right;
     
 }
 .container {
-    padding: 80px 200px 0;
+    padding: 50px 367px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tree {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #242d44;
+    z-index: 4;
+}
+.text_tree {
+    width: 1000px;
+    flex-wrap: wrap;
+    align-content: center;
+    color: white;
+    
+}
+.Lomore {
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: transparent;
+    border-color: transparent;
+    height: 25px;
+    cursor: pointer;
+    float: right; 
+    color: #fff;
+    text-align: left;
+}
+.Lorems {
+    font-size: 21px;
+    padding: 70px 0 40px;
+} 
+.h3 {
+    padding-left: 30px;
+}
+.h2 {
+    text-align: right;
+}
+.best {
+    padding-left: 30px;
+}
+#four {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    z-index: 4;
 }
