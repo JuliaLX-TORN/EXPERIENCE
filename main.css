@@ -2,8 +2,9 @@ body{
     margin: 0;
     padding: 0; 
 }
-.section {
-    
+* {
+    font-family: 'Istok Web', sans-serif;
+    box-sizing: border-box;
 }
 #one {
     position: relative;
@@ -22,7 +23,7 @@ body{
 .blak {
     position: absolute;
     width:100%;
-    height:90%;
+    height:86%;
     background: black;
     opacity:0.6;
     z-index: 2;
@@ -140,7 +141,7 @@ body{
 .h3 {
     padding-left: 30px;
 }
-.h2 {
+.right {
     text-align: right;
 }
 .best {
@@ -152,4 +153,69 @@ body{
     height: 500px;
     background-color: #fff;
     z-index: 4;
+}
+#five {
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    background-color: #242d44;
+    z-index: 4;
+    color: #ffffff;
+    
+}
+.five {
+    font-size:  29px;
+    
+    font-weight: 700;
+}
+.check {
+    font-size: 23px;
+    text-align: center;
+}
+.our {
+    text-align: center;
+    width: 1000px;
+    
+   margin: 0 auto;
+    color: white;
+    padding: 50px;
+}
+.photo_text {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: #29344e;
+    border-radius: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+} 
+.krome_img {
+    padding: 50px;
+}
+.mountain {
+    font-size: 26px;
+    font-weight: 700;
+}
+.hiking {
+    font-weight: 300;
+    font-size: 21px;
+}
+.Lore {
+    text-align: right;
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: transparent;
+    border-color: transparent;
+    height: 25px;
+    cursor: pointer;
+    color: #fff;
+}
+.container_end {
+    padding: 50px 367px 0;
+}
+.pt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
