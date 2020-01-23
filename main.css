@@ -271,12 +271,14 @@ body{
 .on {
     font-weight: 300;
     font-size: 21px;
-    
+    list-style: none;
 }
 .facebook {
-    width: 6px;
-    height: 5px;
-   
+    width: 100px;
+    height: 13px;
+   cursor: pointer;
+   display: flex;
+   margin-left: 100px;
 }
 .nalevo {
     display: flex;
@@ -292,4 +294,26 @@ body{
 }
 .coment {
     margin-bottom: 15px;
+}
+.ion {
+    margin: 0 10px;
+}
+.ion:hover {
+    background-color: cyan;
+    transition: 0.4s;
+}
+.alil_button {
+    width: 127px;
+    height: 40px;
+    color: white;
+    background-color: #242d44;
+    border: 1px solid black;
+    z-index: 3;
+    border-radius: 20px;
+}
+.alil_button:hover {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
 }
