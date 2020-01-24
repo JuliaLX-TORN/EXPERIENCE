@@ -1,81 +1,83 @@
-body{
-    margin: 0;
-    padding: 0; 
+body {
+  margin: 0;
+  padding: 0;
 }
 * {
-    font-family: 'Istok Web', sans-serif;
-    box-sizing: border-box;
+  font-family: "Istok Web", sans-serif;
+  box-sizing: border-box;
 }
 #one {
-    position: relative;
-    width: 100%;
-    height: 100vh;
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 .fon {
-    width: 100%;
-    height: 100vh;
-    background: url("https://technext.github.io/Solid-State/assets/images/01_header_image.jpg") no-repeat;
-    background-size: 100%;
-    position: fixed;
-    z-index: 1;  
+  width: 100%;
+  height: 100vh;
+  background: url("https://technext.github.io/Solid-State/assets/images/01_header_image.jpg")
+    no-repeat;
+  background-size: 100%;
+  position: fixed;
+  z-index: 1;
 }
 
 .blak {
-    position: absolute;
-    width:100%;
-    height:86%;
-    background: black;
-    opacity:0.6;
-    z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 86%;
+  background: black;
+  opacity: 0.6;
+  z-index: 2;
 }
 .menu {
-    left: 93%;
-    margin-right: 8px;
-    margin-top: 5px;
-    width: 110px;
-    height: 35px;
-    color: white;
-    font-size: 17px;
-    background-color: transparent;
-    border: 2px solid white;
-    z-index: 2;
-    position: fixed;
+  left: 93%;
+  margin-right: 8px;
+  margin-top: 5px;
+  width: 110px;
+  height: 35px;
+  color: white;
+  font-size: 17px;
+  background-color: rgb(36, 45, 68);
+  border: 2px solid white;
+  z-index: 6;
+  position: fixed;
 }
 .menu:hover {
-    cursor: pointer;
-    color: gray;
-    border-color: gray;
-    transition: 1s;
+  cursor: pointer;
+  color: gray;
+  border-color: gray;
+  transition: 1s;
 }
 .text {
-    color: #ffffff;
-    position: absolute;
-    z-index: 3;
-    padding-top: 100px;
-    padding-left: 200px;
+  color: #ffffff;
+  position: absolute;
+  z-index: 3;
+  padding-top: 100px;
+  padding-left: 200px;
+  position: fixed;
 }
 .all_button {
-    width: 137px;
-    height: 50px;
-    color: white;
-    background-color: transparent;
-    border: 1px solid white;
-    z-index: 3;
-    border-radius: 20px;
-    margin: 30px auto;
+  width: 137px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  z-index: 3;
+  border-radius: 20px;
+  margin: 30px auto;
 }
 .all_button:hover {
-    background-color: #52313f;
-    border-color: #52313f;
-    cursor: pointer;
-    transition: 0.5s;
+  background-color: #52313f;
+  border-color: #52313f;
+  cursor: pointer;
+  transition: 0.5s;
 }
 #two {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background-color: white;
-    z-index: 4;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  z-index: 4;
 }
 /* .text_two {
     width: 1000px;
@@ -83,237 +85,240 @@ body{
     align-content: center;
 } */
 .Lorem {
-    font-size: 21px;
-    padding-top: 70px;
-    padding-bottom: 60px;
-    text-align: right;
+  font-size: 21px;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  text-align: right;
 }
 .irc_mi {
-    display: block;
-    float: right;
-    padding-left: 50px;
+  display: block;
+  float: right;
+  padding-left: 50px;
 }
 .Lmore {
-    font-size: 14px;
-    font-weight: bolder;
-    background-color: transparent;
-    border-color: transparent;
-    height: 25px;
-    cursor: pointer;
-    float: right;
-    
+  font-size: 14px;
+  font-weight: bolder;
+  background-color: transparent;
+  border-color: transparent;
+  height: 25px;
+  cursor: pointer;
+  float: right;
 }
 .container {
-    padding: 50px 367px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding: 50px 367px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #tree {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background-color: #242d44;
-    z-index: 4;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #242d44;
+  z-index: 4;
 }
 .text_tree {
-    width: 1000px;
-    flex-wrap: wrap;
-    align-content: center;
-    color: white;
-    
+  width: 1000px;
+  flex-wrap: wrap;
+  align-content: center;
+  color: white;
 }
 .Lomore {
-    font-size: 14px;
-    font-weight: bolder;
-    background-color: transparent;
-    border-color: transparent;
-    height: 25px;
-    cursor: pointer;
-    float: right; 
-    color: #fff;
-    text-align: left;
+  font-size: 14px;
+  font-weight: bolder;
+  background-color: transparent;
+  border-color: transparent;
+  height: 25px;
+  cursor: pointer;
+  float: right;
+  color: #fff;
+  text-align: left;
 }
 .Lorems {
-    font-size: 21px;
-    padding: 70px 0 40px;
-} 
+  font-size: 21px;
+  padding: 70px 0 40px;
+}
 .h3 {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 .right {
-    text-align: right;
+  text-align: right;
 }
 .best {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 #four {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background-color: #fff;
-    z-index: 4;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+  z-index: 4;
 }
 #five {
-    position: relative;
-    width: 100%;
-    height: 2230px;
-    background-color: #242d44;
-    z-index: 4;
-    color: #ffffff;
-    
+  position: relative;
+  width: 100%;
+  height: 2230px;
+  background-color: #242d44;
+  z-index: 4;
+  color: #ffffff;
 }
 .five {
-    font-size:  29px;
-    
-    font-weight: 700;
+  font-size: 29px;
+
+  font-weight: 700;
 }
 .check {
-    font-size: 23px;
-    text-align: center;
+  font-size: 23px;
+  text-align: center;
 }
 .our {
-    text-align: center;
-    width: 1000px;
-    
-   margin: 0 auto;
-    color: white;
-    padding: 50px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  color: white;
+  padding: 50px;
 }
 .photo_text {
-    width: 550px;
-    display: flex;
-    flex-direction: column;
-    background-color: #29344e;
-    border-radius: 10px;
-    margin: 0 35px 50px 0;
-    
-} 
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  background-color: #29344e;
+  border-radius: 10px;
+  margin: 0 35px 50px 0;
+  overflow: hidden;
+}
 .krome_img {
-    padding: 50px;
+  padding: 50px;
 }
 .mountain {
-    font-size: 26px;
-    font-weight: 700;
+  font-size: 26px;
+  font-weight: 700;
 }
 .hiking {
-    font-weight: 300;
-    font-size: 21px;
+  font-weight: 300;
+  font-size: 21px;
 }
 .Lore {
-    text-align: right;
-    font-size: 14px;
-    font-weight: bolder;
-    background-color: transparent;
-    border-color: transparent;
-    height: 25px;
-    cursor: pointer;
-    color: #fff;
+  text-align: right;
+  font-size: 14px;
+  font-weight: bolder;
+  background-color: transparent;
+  border-color: transparent;
+  height: 25px;
+  cursor: pointer;
+  color: #fff;
 }
 .container_end {
-    padding: 50px 367px 0;
+  padding: 50px 367px 0;
 }
 .pt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pht {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button {
-    width: 120px;
-    height: 35px;
-    color: white;
-    background-color: transparent;
-    border: 1px solid white;
-    z-index: 3;
-    border-radius: 30px;
-    margin: 30px auto;
+  width: 120px;
+  height: 35px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  z-index: 3;
+  border-radius: 30px;
+  margin: 30px auto;
 }
 .button:hover {
-    background-color: #ffffff;
-    color: black;
-    cursor: pointer;
-    transition: 0.4s;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  transition: 0.4s;
 }
 #end {
-    position: relative;
-    width: 100%;
-    height: 1230px;
-    background-color: #fff;
-    z-index: 4;
-    color: black;
+  position: relative;
+  width: 100%;
+  height: 1230px;
+  background-color: #fff;
+  z-index: 4;
+  color: black;
 }
 .container_died {
-    padding: 50px 367px 0;
+  padding: 50px 367px 0;
 }
 .fivet {
-    font-size:  29px;
-    font-weight: 700;
-    text-align: center;
+  font-size: 29px;
+  font-weight: 700;
+  text-align: center;
 }
 .checks {
-    font-size: 21px;
-    text-align: center;
+  font-size: 21px;
+  text-align: center;
 }
 .we {
-    text-align: center;
-    width: 1000px;
-    
-   margin: 0 auto;
-    color: black;
-    padding: 30px 90px ;
+  text-align: center;
+  width: 1000px;
+
+  margin: 0 auto;
+  color: black;
+  padding: 30px 90px;
 }
 .on {
-    font-weight: 300;
-    font-size: 21px;
-    list-style: none;
+  font-weight: 300;
+  font-size: 21px;
+  list-style: none;
 }
 .facebook {
-    width: 100px;
-    height: 13px;
-   cursor: pointer;
-   display: flex;
-   margin-left: 100px;
+  width: 100px;
+  height: 13px;
+  cursor: pointer;
+  display: flex;
+  margin-left: 100px;
 }
 .nalevo {
-    display: flex;
-    flex-direction: column;
-} 
+  display: flex;
+  flex-direction: column;
+}
 .put {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .send {
-    display: flex;
-    
+  display: flex;
 }
 .coment {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .ion {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 .ion:hover {
-    background-color: cyan;
-    transition: 0.4s;
+  background-color: cyan;
+  transition: 0.4s;
 }
 .alil_button {
-    width: 127px;
-    height: 40px;
-    color: white;
-    background-color: #242d44;
-    border: 1px solid black;
-    z-index: 3;
-    border-radius: 20px;
+  width: 127px;
+  height: 40px;
+  color: white;
+  background-color: #242d44;
+  border: 1px solid black;
+  z-index: 3;
+  border-radius: 20px;
 }
 .alil_button:hover {
-    background-color: transparent;
-    color: black;
-    cursor: pointer;
-    transition: 0.5s;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.small {
+  border-radius: 10px;
+}
+.so_so {
+  border-radius: 10px;
+}
+.big {
+  border-radius: 20px;
 }
